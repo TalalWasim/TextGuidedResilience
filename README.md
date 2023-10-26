@@ -1,7 +1,7 @@
 # Hardware Resilience Properties of Text-Guided Image Classifiers [NeurIPS 2023] 
 
 [Syed Talal Wasim](https://talalwasim.github.io),
-[Kabila Haile Soboka](https://github.com/TalalWasim/TextGuidedResilience),
+[Kabila Haile Soboka](https://www.linkedin.com/in/kabila-haile/),
 [Abdulrahman Mahmoud](https://ma3mool.github.io/),
 [Salman Khan](https://salman-h-khan.github.io/),
 [David Brooks](http://www.eecs.harvard.edu/~dbrooks/),
