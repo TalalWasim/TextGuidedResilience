@@ -88,7 +88,7 @@ Please follow [DATA.md](./DATA.md) for data preparation.
 | ResNet-50               | 75.64%        | 74.84%    | 4.48×                                   | 2.96×                                | 3.35%                   |[baseline]()/[clip]()|
 | ResNet-101              | 77.25%        | 75.52%    | 4.33×                                   | 2.77×                                | 3.13%                   |[baseline]()/[clip]()|
 | ResNet-152              | 77.98%        | 76.18%    | 4.47×                                   | 2.85×                                | 3.09%                   |[baseline]()/[clip]()|
-| mobileNet-V2            | 71.87%        | 71.83%    | 3.92x                                   | 2.43x                                | 5.36%                   |[baseline]()/[clip]()|
+| MobileNet-V2            | 71.87%        | 71.83%    | 3.92x                                   | 2.43x                                | 5.36%                   |[baseline]()/[clip]()|
 | MaxVit-T                | 82.98%        | 83.08%    | 2.38x                                   | 1.63x                                | 2.62%                   |[baseline]()/[clip]()|
 | Swin-V2-T               | 80.97%        | 80.02%    | 1.65x                                   | 1.07x                                | 2.85%                   |[baseline]()/[clip]()|
 | Swin-V2-S               | 82.71%        | 82.86%    | 2.51x                                   | 1.60x                                | 3.04%                   |[baseline]()/[clip]()|
