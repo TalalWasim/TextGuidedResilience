@@ -81,32 +81,32 @@ Please follow [DATA.md](./DATA.md) for data preparation.
 | Backbone                | Acc. Baseline | Acc. Ours | Improvement in Reliability (Last Layer) | Improvement in Reliability (Overall) | Improvement in Top2Diff | Download |
 |:-----------------------:|:-------------:|:---------:|:---------------------------------------:|:------------------------------------:|:-----------------------:|:--------:|
 | Alexnet                 | 56.43%        | 57.28%    | 7.92×                                   | 4.67×                                | 2.83%                   |[baseline]()/[clip]()|
-|clip-16-BN               | 73.45%        | 72.96%    | 14.43×                                  | 9.64×                                | 1.62%                   |[baseline]()/[clip]()|
-|clip-19-BN               | 74.40%        | 74.01%    | 13.29×                                  | 8.67×                                | 1.13%                   |[baseline]()/[clip]()|
-|clipNet-18               | 69.60%        | 69.68%    | 2.87×                                   | 1.91×                                | 3.07%                   |[baseline]()/[clip]()|
-|clipNet-34               | 73.25%        | 72.62%    | 3.89×                                   | 2.53×                                | 2.08%                   |[baseline]()/[clip]()|
-|clipNet-50               | 75.64%        | 74.84%    | 4.48×                                   | 2.96×                                | 3.35%                   |[baseline]()/[clip]()|
-|clipNet-101              | 77.25%        | 75.52%    | 4.33×                                   | 2.77×                                | 3.13%                   |[baseline]()/[clip]()|
-|clipNet-152              | 77.98%        | 76.18%    | 4.47×                                   | 2.85×                                | 3.09%                   |[baseline]()/[clip]()|
-|clipileNet-V2            | 71.87%        | 71.83%    | 3.92x                                   | 2.43x                                | 5.36%                   |[baseline]()/[clip]()|
-|clipVit-T                | 82.98%        | 83.08%    | 2.38x                                   | 1.63x                                | 2.62%                   |[baseline]()/[clip]()|
-|clipn-V2-T               | 80.97%        | 80.02%    | 1.65x                                   | 1.07x                                | 2.85%                   |[baseline]()/[clip]()|
-|clipn-V2-S               | 82.71%        | 82.86%    | 2.51x                                   | 1.60x                                | 3.04%                   |[baseline]()/[clip]()|
-|clipalNet-T              | 80.23%        | 80.77%    | 1.87x                                   | 1.61x                                | 2.61%                   |[baseline]()/[clip]()|
-|clipalNet-S              | 82.01%        | 82.52%    | 2.73x                                   | 1.50x                                | 3.10%                   |[baseline]()/[clip]()|
+| VGG-16-BN               | 73.45%        | 72.96%    | 14.43×                                  | 9.64×                                | 1.62%                   |[baseline]()/[clip]()|
+| VGG-19-BN               | 74.40%        | 74.01%    | 13.29×                                  | 8.67×                                | 1.13%                   |[baseline]()/[clip]()|
+| ResNet-18               | 69.60%        | 69.68%    | 2.87×                                   | 1.91×                                | 3.07%                   |[baseline]()/[clip]()|
+| ResNet-34               | 73.25%        | 72.62%    | 3.89×                                   | 2.53×                                | 2.08%                   |[baseline]()/[clip]()|
+| ResNet-50               | 75.64%        | 74.84%    | 4.48×                                   | 2.96×                                | 3.35%                   |[baseline]()/[clip]()|
+| ResNet-101              | 77.25%        | 75.52%    | 4.33×                                   | 2.77×                                | 3.13%                   |[baseline]()/[clip]()|
+| ResNet-152              | 77.98%        | 76.18%    | 4.47×                                   | 2.85×                                | 3.09%                   |[baseline]()/[clip]()|
+| mobileNet-V2            | 71.87%        | 71.83%    | 3.92x                                   | 2.43x                                | 5.36%                   |[baseline]()/[clip]()|
+| MaxVit-T                | 82.98%        | 83.08%    | 2.38x                                   | 1.63x                                | 2.62%                   |[baseline]()/[clip]()|
+| Swin-V2-T               | 80.97%        | 80.02%    | 1.65x                                   | 1.07x                                | 2.85%                   |[baseline]()/[clip]()|
+| Swin-V2-S               | 82.71%        | 82.86%    | 2.51x                                   | 1.60x                                | 3.04%                   |[baseline]()/[clip]()|
+| FocalNet-T              | 80.23%        | 80.77%    | 1.87x                                   | 1.61x                                | 2.61%                   |[baseline]()/[clip]()|
+| FocalNet-S              | 82.01%        | 82.52%    | 2.73x                                   | 1.50x                                | 3.10%                   |[baseline]()/[clip]()|
 
 ### Other Datasets
 
 | Dataset  | Backbone   | Acc. Baseline | Acc. Ours | Improvement in Reliability (Last Layer) | Improvement in Reliability (Overall) | Improvement in Top2Diff | Download |
 |:--------:|:----------:|:-------------:|:---------:|:---------------------------------------:|:------------------------------------:|:-----------------------:|:--------:|
 | CIFAR10  | ResNet-50  | 95.07         | 95.29     | 2.04x                                   | 1.71x                                | 6.70%                   |[baseline]()/[clip]()|
-|clipAR10  | FocalNet-T | 94.76         | 94.94     | 2.47x                                   | 1.30x                                | 3.58%                   |[baseline]()/[clip]()|
-|clipAR100 | ResNet-50  | 78.23         | 78.53     | 2.19x                                   | 1.65x                                | 3.69%                   |[baseline]()/[clip]()|
-|clipAR100 | FocalNet-T | 77.06         | 79.21     | 3.21x                                   | 1.58x                                | 2.90%                   |[baseline]()/[clip]()|
-|clipD101  | ResNet-50  | 83.13         | 83.97     | 2.66x                                   | 2.15x                                | 2.78%                   |[baseline]()/[clip]()|
-|clipD101  | FocalNet-T | 85.64         | 85.91     | 3.28x                                   | 2.85x                                | 1.70%                   |[baseline]()/[clip]()|
-|clip10    | ResNet-50  | 47.73         | 52.68     | 2.10x                                   | 1.91x                                | 2.45%                   |[baseline]()/[clip]()|
-|clip10    | FocalNet-T | 62.74         | 63.78     | 2.23x                                   | 1.72x                                | 1.96%                   |[baseline]()/[clip]()|
+| CIFAR10  | FocalNet-T | 94.76         | 94.94     | 2.47x                                   | 1.30x                                | 3.58%                   |[baseline]()/[clip]()|
+| CIFAR100 | ResNet-50  | 78.23         | 78.53     | 2.19x                                   | 1.65x                                | 3.69%                   |[baseline]()/[clip]()|
+| CIFAR100 | FocalNet-T | 77.06         | 79.21     | 3.21x                                   | 1.58x                                | 2.90%                   |[baseline]()/[clip]()|
+| FOOD101  | ResNet-50  | 83.13         | 83.97     | 2.66x                                   | 2.15x                                | 2.78%                   |[baseline]()/[clip]()|
+| FOOD101  | FocalNet-T | 85.64         | 85.91     | 3.28x                                   | 2.85x                                | 1.70%                   |[baseline]()/[clip]()|
+| STL10    | ResNet-50  | 47.73         | 52.68     | 2.10x                                   | 1.91x                                | 2.45%                   |[baseline]()/[clip]()|
+| STL10    | FocalNet-T | 62.74         | 63.78     | 2.23x                                   | 1.72x                                | 1.96%                   |[baseline]()/[clip]()|
 
 ## Evaluation
 
