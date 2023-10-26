@@ -17,7 +17,7 @@
 <!--ts-->
    * [News](#rocket-News)
    * [Overview](#overview)
-   * [Visualization](#visualization-first-and-last-layer-spatio-temporal-modulator)
+   * [Visualization](#https://github.com/TalalWasim/TextGuidedResilience/tree/main#comparative-visualization-for-various-backbones-of-baseline-and-our-training-before-and-after-single-bit-flip-error-injection)
    * [Environment Setup](#environment-setup)
    * [Dataset Preparation](#dataset-preparation)
    * [Model Zoo](#model-zoo)
