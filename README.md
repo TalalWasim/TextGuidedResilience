@@ -154,7 +154,7 @@ Additionally, please note that for training the FocalNet models, we directly uti
 ## Citation
 If you find our work, this repository, or pretrained models useful, please consider giving a star :star: and citation.
 ```bibtex
-@InProceedings{Wasim_2023_ICCV,
+@InProceedings{wasim2023textguidedresilience,
     author    = {Wasim, Syed Talal and Soboka, Kabila Haile and Mahmoud, Abdulrahman and Khan, Salman and Brooks, David and Wei, Gu-Yeon},
     title     = {Hardware Resilience Properties of Text-Guided Image Classifiers},
     booktitle = {NeurIPS},
