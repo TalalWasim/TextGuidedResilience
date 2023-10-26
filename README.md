@@ -118,7 +118,7 @@ exp_dir=/path/to/log/directory
 mkdir -p "${exp_dir}"
 
 python -m test.py \
-  --data-path '/path/to/imagenet/' \
+  --data_path '/path/to/imagenet/' \
   --model ${NETWORK} \
   --checkpoint_path '/path/to/checkpoint' \
 2>&1 | tee "${exp_dir}/eval-$(date +"%Y%m%d_%H%M%S").log"
@@ -132,7 +132,7 @@ exp_dir=/path/to/log/directory
 mkdir -p "${exp_dir}"
 
 python -m test.py \
-  --data-path '/path/to/imagenet/' \
+  --data_path '/path/to/imagenet/' \
   --model ${NETWORK} \
   --checkpoint_path '/path/to/checkpoint' \
   --CLIP_model \
