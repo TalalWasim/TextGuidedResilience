@@ -7,7 +7,7 @@
 [David Brooks](http://www.eecs.harvard.edu/~dbrooks/),
 [Gu-Yeon Wei](https://seas.harvard.edu/person/gu-yeon-wei)
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2311.14062)
 <hr />
 
 > **Abstract:**
@@ -30,7 +30,7 @@
 <!--te-->
 
 ## :rocket: News
-* **(October 27, 2023)** 
+* **(November 27, 2023)** 
   * Training and evaluation codes are released. Pretrained models will be released soon.
 <hr />
 
