@@ -80,7 +80,7 @@ Please follow [DATA.md](./DATA.md) for data preparation.
 
 | Backbone                | Acc. Baseline | Acc. Ours | Improvement in Reliability (Last Layer) | Improvement in Reliability (Overall) | Improvement in Top2Diff | Download |
 |:-----------------------:|:-------------:|:---------:|:---------------------------------------:|:------------------------------------:|:-----------------------:|:--------:|
-| Alexnet                 | 56.43%        | 57.28%    | 7.92×                                   | 4.67×                                | 2.83%                   |[baseline]()/[clip]()|
+| Alexnet                 | 56.43%        | 57.28%    | 7.92×                                   | 4.67×                                | 2.83%                   |[baseline](https://huggingface.co/kabilasoboka/TextGuidedResilience/blob/main/ImageNet/alexnet/alexnet_baseline.pth)/[clip](https://huggingface.co/kabilasoboka/TextGuidedResilience/blob/main/ImageNet/alexnet/alexnet_CLIP.pth)|
 | VGG-16-BN               | 73.45%        | 72.96%    | 14.43×                                  | 9.64×                                | 1.62%                   |[baseline]()/[clip]()|
 | VGG-19-BN               | 74.40%        | 74.01%    | 13.29×                                  | 8.67×                                | 1.13%                   |[baseline]()/[clip]()|
 | ResNet-18               | 69.60%        | 69.68%    | 2.87×                                   | 1.91×                                | 3.07%                   |[baseline]()/[clip]()|
